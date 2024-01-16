@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #eff0f5;
+}
+
+.featuredWidth{
+    max-width: 1170px;
+}
+.rating {
+    font-size: 0; /* Set font size to 0 to remove default spacing */
+  }
+
+  .mask-star {
+    width: 16px; /* Set the width of each star */
+    height: 16px; /* Set the height of each star */
+  }
+  .groups:hover .groupsBlock{
+    display: block;
+  }
